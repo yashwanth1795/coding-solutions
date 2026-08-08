@@ -8,10 +8,6 @@
 
 Listen
 
-Introducing Listen to Problem✨
-
-Don't want to read? Now you can listen to the problem!
-
 We'll begin with the print statement, which is commonly the first thing you learn in most programming languages.
 
 The print statement in Python is used to display output on the screen. You can use it to print numbers, text, or the results of expressions.
@@ -28,7 +24,7 @@ Click on  **Submit**  below the IDE to know the result. Then click on next to co
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T13:02:35.433Z  
+**Submitted:** 2026-08-08T13:02:37.976Z  
 
 ```py
 print(12)
