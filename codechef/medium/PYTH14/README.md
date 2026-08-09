@@ -9,35 +9,34 @@
 What will be the output of this code?
 
 ```
-print(82, 2, " ", 3)
+print("Add", 2, "and", 3, "to get ", 5)
 
 ```
 
- **Option 1** :
+Option 1:
 
 ```
-8223
-
-```
-
- **Option 2** :
-
-```
-82 2 3
+Add 2 and 3 to get 5
 
 ```
 
- **Option 3** :
+Option 2:
 
 ```
-82 2   3
+"Add" 2 "and" 3 "to get " 5
 
 ```
 
- **Option 4** :
+Option 3:
 
 ```
-82 2 " " 3
+Add 2 and 3 to get  5
+
+```
+
+```
+Note: In Option 1, there is 1 space between "get"  and '5'. 
+In Option 3, there are 2 spaces between "get"  and '5'.
 
 ```
 
@@ -46,7 +45,7 @@ print(82, 2, " ", 3)
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-09T14:37:52.086Z  
+**Submitted:** 2026-08-09T14:38:19.101Z  
 
 ```cpp
 # Add "equals" and 10 at the place of __, __
