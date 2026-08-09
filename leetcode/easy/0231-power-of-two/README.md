@@ -51,7 +51,7 @@ Output: false
 **Language:** Python  
 **Runtime:** 0 ms  
 **Memory:** 19.3 MB  
-**Submitted:** 2026-08-09T13:09:27.923Z  
+**Submitted:** 2026-08-09T13:09:33.360Z  
 
 ```py
 class Solution:
