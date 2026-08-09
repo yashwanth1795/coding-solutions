@@ -4,24 +4,26 @@
 
 ## Problem
 
-### Negative Numbers
+### Multiple Choice Question
 
-Listen
+What will be the output of this code?
 
-Write a program which does the following:
+```
+a = -10
+b = -3
+c = a * b
+print(c)
 
-- Display the sum and product of 2 integers: -50 & 40.
-- Initialize the following variables in your program and use them in the computation Variable a and assign it the value -50 Variable b assign it the value 40 Variables total & product - assign the relevant values to them
-- Output total and product as space separated values on a single lines
+```
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-09T14:51:52.504Z  
+**Submitted:** 2026-08-09T14:52:19.185Z  
 
-```py
+```cpp
 # cook your dish here
 a=-50
 b=40
