@@ -49,17 +49,17 @@ Output: false
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-08-09T13:09:33.360Z  
+**Runtime:** 4 ms (beats 5.27%)  
+**Memory:** 19.1 MB (beats 85.33%)  
+**Submitted:** 2026-08-09T13:10:06.161Z  
 
 ```py
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        if n<0:
+        if n<=0:
             return False
-        else:
-            return (n &(n-1)==0)
+
+        return (n &(n-1)==0)
 
         
 ```
