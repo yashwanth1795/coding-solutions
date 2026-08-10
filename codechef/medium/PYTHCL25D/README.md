@@ -18,7 +18,7 @@ print(int(5/2))
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:05:25.160Z  
+**Submitted:** 2026-08-10T14:05:28.931Z  
 
 ```cpp
 a = 5
