@@ -6,19 +6,14 @@
 
 ### Multiple choice question
 
-Which of the following expressions is equivalent to the following code snippet?
-
-```
-not(a < b)
-
-```
+Which of the following expressions evaluates to `False`?
 
 ## Solution
 
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:21:11.220Z  
+**Submitted:** 2026-08-10T14:22:00.712Z  
 
 ```cpp
 height = 15
