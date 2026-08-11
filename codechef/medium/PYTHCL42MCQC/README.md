@@ -4,16 +4,24 @@
 
 ## Problem
 
-_Description not available._
+### Multiple Choice Question
+
+What will this code output?
+
+```
+s = "abcdefghij"
+print(s[2:9:3])
+
+```
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T17:03:01.802Z  
+**Submitted:** 2026-08-11T17:03:53.319Z  
 
-```py
+```cpp
 var = "String"
 
 z=var[0:6:2]
