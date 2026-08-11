@@ -4,29 +4,46 @@
 
 ## Problem
 
-### Multiple Choice Question
+### String slicing
 
-What will this code output?
+Listen
 
-```
-s = "abcdefghij"
-print(s[2:-2])
+There's another syntax to slice a string:
 
 ```
+substring = string[start:end:step]
+
+```
+
+Step is how many characters you move forward each time you read. If your step is 1, you read one character at a time. If your step is 2, you skip one character and then read the next one.
+
+Let's say our string is 'abcde':
+
+```
+s = 'abcde'
+print(s[0:4:2]) # Output: ac
+
+```
+
+Here, the step is set to 2, so it takes 2 jumps after reading each character.
+The character at the start index 0 is  **a**. Then, it jumps by 2 characters and gets  **c**.
+Once it reaches  **c**, it stops because the end index is set to 4, so the traversal happens from index 0 to index 3.
+
+### Task
+- Given a string slice all the characters with even index and print the output. i.e, characters at index 0, 2, 4...
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T17:02:14.671Z  
+**Submitted:** 2026-08-11T17:02:59.884Z  
 
-```cpp
+```py
 var = "String"
-z=var[2:]
+
+z=var[0:6:2]
 print(z)
-
-
 ```
 
 ---
