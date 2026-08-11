@@ -1,4 +1,5 @@
-original_string = "saffix"
-index_to_modify = 1
-new_char = 'u'
-print(original_string[:index_to_modify]+new_char+original_string[2:])
+# Complete the code to solve the task
+text = "Playground"
+
+z=text[6:1:-1]
+print(z)
