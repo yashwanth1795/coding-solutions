@@ -1,3 +1,7 @@
-# Update your code below this line
-txt="NumeroTres"
-print(len(txt))
+# We need to output 2569 using string concatenation.
+# The code below is incorrect - Debug the code to solve the problem
+
+string1 = "25"
+string2 = "69"
+
+print(string1 + string2)
