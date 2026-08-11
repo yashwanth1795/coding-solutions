@@ -4,49 +4,57 @@
 
 ## Problem
 
-### Changing character using slicing
+### Reverse slicing
 
 Listen
 
-You can also use slicing to change the value of a character.
-We can achieve this by slicing the string into parts before and after the character to be changed, then concatenate these parts with the new character in between.
+You can use [start:end:step] format to print a string in reverse. Let's see how.
+
+We know when slicing, the traversal (movement) always happens from left to right. But there is a way to traverse from right to left by mentioning a negative step.
 
 ```
-string = 'Chaf'
-new_string = string[:2] + 'e' + string[3:]
-print(new_string) # Output: Chef
-# This code modifies the string 'Chaf' to 'Chef'
-
-```
-
-Here's what's happening:
-
-```
-string[:2]   # Takes the first two letters from the original word i.e, 0 to 1. In this case, it extracts 'Ch'
-e            # This is the new character we want to replace the existing character at index 2 with.
-string[3:]   # Takes all letters from the third index to the end. In this case, it extracts 'f'.
+s='abcde'
+print(s[4:0:-1]) # Output: edcb
 
 ```
 
-By concatenating these three parts together (**`string[:2] + 'e' + string[3:]`**), we create a new string where the original character at index 2 is replaced with 'e'.
-So, `new_string` becomes 'Chef'.
+When you mention a negative step the slicing starts from right to left.
+So, your start index will be 4 and the slicing stops at 1 because the end index is 0
 
-### Task:
-- You are given a string variable named original_string and variable index_to_modify that stores an index value.
-- Use slicing to replace the character at the specified index (index_to_modify) with a new character provided in new_char, and then print the modified string.
+If you had to print the entire string in reverse then you write:
+
+```
+print(s[::-1]) # Output: edcba
+
+```
+
+- When you mention empty start index it will start from the very beginning,
+- And if the end index is empty it goes all the way till the end,
+- And since the step is negative the slicing starts from the right and goes all the way to the left
+
+ **Note** :
+
+- The only way you can traverse from right to left (in reverse) is by mentioning a negative step, in all other slicing formats the traversal always happens from left to right
+
+#### Task
+
+You are given a string variable `text` with the value 'Playground'. Your task is to perform the following operation on the string using slicing:
+
+- Extract characters from index 2 to index 6 (both inclusive) and print them in reverse order
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T17:07:49.156Z  
+**Submitted:** 2026-08-11T17:09:42.626Z  
 
 ```py
-original_string = "saffix"
-index_to_modify = 1
-new_char = 'u'
-print(original_string[:index_to_modify]+new_char+original_string[2:])
+# Complete the code to solve the task
+text = "Playground"
+
+z=text[6:1:-1]
+print(z)
 ```
 
 ---
