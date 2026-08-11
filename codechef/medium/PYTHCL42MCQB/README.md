@@ -4,24 +4,16 @@
 
 ## Problem
 
-### Multiple Choice Question
-
-What will this code output?
-
-```
-s = "abcdefghij"
-print(s[8:3:-2])
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T17:10:36.383Z  
+**Submitted:** 2026-08-11T17:09:43.803Z  
 
-```cpp
+```py
 # Complete the code to solve the task
 text = "Playground"
 
