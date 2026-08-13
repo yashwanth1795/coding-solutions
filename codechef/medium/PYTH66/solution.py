@@ -3,5 +3,5 @@ r = int(input())
 
 if r>b:
     print("Rob scored higher marks than Bob")
-elif b==r:
+else:
     print("Bob & Rob scored the same")
