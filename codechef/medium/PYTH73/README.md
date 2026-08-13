@@ -58,14 +58,14 @@ Nice try
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-13T09:28:38.871Z  
+**Submitted:** 2026-08-13T09:29:12.243Z  
 
 ```py
 score = int(input())
 
 if (score==100):
     print("Perfect score")
-elif (80>=100):
+elif (score>=80 and score<=100):
     print("Almost perfect score")
 else:
     print("Nice try")
