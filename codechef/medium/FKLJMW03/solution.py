@@ -1,10 +1,10 @@
 import numpy as np
 
-# Ask the user for the number of rolls
-num_rolls = int(input())
+start = int(input())
+end = int(input())
 
-# Create a NumPy array of random dice rolls
-dice_rolls =np.random.randint(1,7,size=num_rolls)
+# Create a NumPy array of odd numbers from start to end
+odd_numbers = np.arange(start+(start%2==0),end+1,2)
 
-# Print the resulting array
-print(dice_rolls)
+# Print array of odd numbers
+print(odd_numbers)
