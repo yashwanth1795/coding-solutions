@@ -4,21 +4,21 @@
 
 ## Problem
 
-### Random Dice Roll Simulator
+### Generate a sequence of odd numbers
 
-Create a program that simulates rolling a six-sided die multiple times. You are given number of times the die rolls.
-Write a program that use NumPy's `randint` function to generate random numbers between 1 and 6 (inclusive) to represent the die rolls. Display the results as a NumPy array. Note that the output may vary for same input.
+Create a NumPy array containing a sequence of odd numbers from a given start value to an end value. The user should input the start and end values, and the program should generate the array of odd numbers within that range.
 
 ### Sample 1:
 Input
 Output
 
 ```
-3
+4
+9
 ```
 
 ```
-[4 6 3]
+[5 7 9]
 ```
 
 ## Solution
@@ -26,19 +26,19 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-13T14:23:07.272Z  
+**Submitted:** 2026-08-13T14:25:05.367Z  
 
 ```py
 import numpy as np
 
-# Ask the user for the number of rolls
-num_rolls = int(input())
+start = int(input())
+end = int(input())
 
-# Create a NumPy array of random dice rolls
-dice_rolls =np.random.randint(1,7,size=num_rolls)
+# Create a NumPy array of odd numbers from start to end
+odd_numbers = np.arange(start+(start%2==0),end+1,2)
 
-# Print the resulting array
-print(dice_rolls)
+# Print array of odd numbers
+print(odd_numbers)
 
 ```
 
