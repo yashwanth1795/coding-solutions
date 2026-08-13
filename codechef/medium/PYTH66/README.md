@@ -73,7 +73,7 @@ Bob & Rob both scored the same
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-13T09:23:00.126Z  
+**Submitted:** 2026-08-13T09:23:16.117Z  
 
 ```py
 b = int(input())
@@ -81,7 +81,7 @@ r = int(input())
 
 if r>b:
     print("Rob scored higher marks than bob")
-elif a==b:
+elif b==r:
     print("Bob & Rob scored the same")
 ```
 
