@@ -1,4 +1,3 @@
-# Update your code below this line
+# Update the code below this line.
 n=int(input())
-print("Square is:",n*n)
-print("Cube is:",n*n*n)
+print(n*1.60)
