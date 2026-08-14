@@ -27,7 +27,7 @@ print("Program ends")
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-14T14:12:02.211Z  
+**Submitted:** 2026-08-14T14:12:22.117Z  
 
 ```cpp
 # The following helps accept multiple user input
