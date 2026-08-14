@@ -76,13 +76,13 @@ the number is greater than 5
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-14T14:20:43.258Z  
+**Submitted:** 2026-08-14T14:22:00.565Z  
 
 ```py
 #if condition is wrong it should be changed to n>5
 n = int(input())
 
-if n < 5:
+if n >5:
     print("the number is greater than 5")
 else:
     print("the number is smaller than or equal to 5")
