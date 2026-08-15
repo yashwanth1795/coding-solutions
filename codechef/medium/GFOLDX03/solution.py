@@ -1,10 +1,11 @@
 import numpy as np
 
-# Create a NumPy array from user input
-input_list = input().split()
-input_list = [int(score) for score in input_list]
-arr = np.array(input_list)
+# Get user input
+input_string = input()
+numbers = [int(x) for x in input_string.split()]
 
-reversed_arr=arr[::-1]
-
-print(reversed_arr)
+# Create a NumPy array
+arr = np.array(numbers)
+mask=arr>=0
+result=arr[mask]
+print( result)
