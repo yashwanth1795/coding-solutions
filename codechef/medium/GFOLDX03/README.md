@@ -4,20 +4,20 @@
 
 ## Problem
 
-### Reverse a NumPy array using slicing
+### Mask negative numbers in a NumPy array
 
-In this practice problem, you will learn how to reverse a NumPy array using array slicing. You'll be given a NumPy array, and your task is to reverse the order of its elements using slicing operations.
+Create a NumPy array from user input and create a boolean mask to filter out negative numbers. Then, use this mask to display only the non-negative numbers from the original array.
 
 ### Sample 1:
 Input
 Output
 
 ```
-9 14 20 7 3 5
+13 -11 8 7 -4 0 2
 ```
 
 ```
-[ 5  3  7 20 14  9]
+[13  8  7  0  2]
 ```
 
 ## Solution
@@ -25,19 +25,20 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T03:05:03.119Z  
+**Submitted:** 2026-08-15T03:08:32.094Z  
 
 ```py
 import numpy as np
 
-# Create a NumPy array from user input
-input_list = input().split()
-input_list = [int(score) for score in input_list]
-arr = np.array(input_list)
+# Get user input
+input_string = input()
+numbers = [int(x) for x in input_string.split()]
 
-reversed_arr=arr[::-1]
-
-print(reversed_arr)
+# Create a NumPy array
+arr = np.array(numbers)
+mask=arr>=0
+result=arr[mask]
+print( result)
 ```
 
 ---
