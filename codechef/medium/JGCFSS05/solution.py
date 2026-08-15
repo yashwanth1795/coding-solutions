@@ -1,15 +1,25 @@
 import numpy as np
 
-# Create a 5x5x5 3D array with random integers from 0 to 99
-array_3d = np.random.randint(0, 100, size=(5, 5, 5))
+def extract_rows_from_layers(depth, rows, cols, row_indices):
+    # Create a 3D array with the given dimensions
+    array_3d = np.arange(depth * rows * cols).reshape(depth, rows, cols)
+    # Your code here to extract the specified rows from all layers
+    result = array_3d[:, row_indices, :]
+    
+    return result
 
-# Get user input for cube dimensions
-a = int(input())
-b = int(input())
-c = int(input())
+# Take depth of the 3D array as input 
+depth = int(input())
 
-# Your code here
-# Extract the cube from the 3D array
-extracted_cube = array_3d[1:1+a, 1:1+b, 1:1+c]
-# Print the extracted cube
-print(extracted_cube)
+# Take number of rows as input
+rows = int(input())
+
+# Take number of columns as input
+cols = int(input())
+
+# Take row_indices to extract as input
+row_indices = list(map(int, input().split()))
+
+# Call the function and print the result
+result = extract_rows_from_layers(depth, rows, cols, row_indices)
+print(result)
