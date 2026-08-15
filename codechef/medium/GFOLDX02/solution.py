@@ -1,9 +1,10 @@
 import numpy as np
 
-# Get input from the user and convert it into numpy array of integers
+# Create a NumPy array from user input
 input_list = input().split()
-input_array = np.array(input_list, dtype=int)
-result=input_array[::3]
+input_list = [int(score) for score in input_list]
+arr = np.array(input_list)
 
+reversed_arr=arr[::-1]
 
-print(result)
+print(reversed_arr)
